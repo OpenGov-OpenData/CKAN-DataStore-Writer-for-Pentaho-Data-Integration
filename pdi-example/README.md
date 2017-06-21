@@ -11,7 +11,7 @@ Solution:<BR>
 - PDI - Pentaho Data Integration
 - CKAN
 - CKAN-DataStore-Writer-for-Pentaho-Data-Integration Plugin
-- Simple transformation, click here to download the sample.
+- [Simple transformation](https://github.com/caiomsouza/CKAN-DataStore-Writer-for-Pentaho-Data-Integration/blob/master/pdi-example/src/t_ckan_pdi_plugin_test_github_example.ktr)
 
 Read the blog to learn more:<BR>
 http://blog.professorcoruja.com/2017/06/unlock-your-data-using-pdi-and-ckan-pdi.html<BR>
