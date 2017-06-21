@@ -1,8 +1,8 @@
 # Unlock your data using PDI and CKAN PDI Plugin
 
-Data is the new bacon and open data is the future for a better world.<BR><BR>
+Data is the new bacon and open data is the future for a better world.<BR>
 
-Today I want to share an easy way to share data using PDI to CKAN Data Platform.<BR><BR>
+Today I want to share an easy way to share data using PDI to CKAN Data Platform.<BR>
 
 Use case:<BR>
 - Organizations want to share one or more dataset(s) in an automatic way to CKAN, the world’s leading Open Source data portal platform.
