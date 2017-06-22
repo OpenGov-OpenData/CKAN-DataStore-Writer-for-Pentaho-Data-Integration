@@ -38,3 +38,13 @@ To create an new Datastore resource provide a valid Package ID and omit the Reso
 
 ### PDI Sample Transformation
 http://blog.professorcoruja.com/2017/06/unlock-your-data-using-pdi-and-ckan-pdi.html
+
+### Install the plugin using your own PDI Marketplace
+
+The way to override the metadata url is to edit system/karaf/etc/pentaho.marketplace.di.cfg <BR>
+And change the value of the marketplace.site property.<BR>
+
+Change to: <BR>
+marketplace.site = https://raw.githubusercontent.com/caiomsouza/marketplace-metadata/master/marketplace.xml<BR>
+
+and then start PDI.<BR>
