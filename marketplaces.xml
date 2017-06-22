@@ -1,0 +1,11 @@
+<!-- Place this file in your $HOME/.kettle directory -->
+<marketplaces>
+  <marketplace>
+  	<name>GitHub</name>
+  	<entries_url>https://raw.githubusercontent.com/caiomsouza/marketplace-metadata/master/marketplace.xml</entries_url>
+  </marketplace>
+  <!--<marketplace>
+  	<name>Caio Moreno</name>
+  	<entries_url>/Users/mburgess/git/marketplace-metadata/marketplace.xml</entries_url>
+  </marketplace>-->
+</marketplaces>
