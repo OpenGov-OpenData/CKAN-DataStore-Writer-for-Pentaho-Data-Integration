@@ -48,3 +48,8 @@ Change to: <BR>
 marketplace.site = https://raw.githubusercontent.com/caiomsouza/marketplace-metadata/master/marketplace.xml<BR>
 
 and then start PDI.<BR>
+
+### Publish Plugin to Official PDI Markeplace
+
+I created an issue asking the authors to publish it to Official PDI Markeplace
+https://github.com/OpenGov-OpenData/CKAN-DataStore-Writer-for-Pentaho-Data-Integration/issues/1
