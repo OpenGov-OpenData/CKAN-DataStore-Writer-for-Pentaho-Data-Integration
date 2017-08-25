@@ -197,7 +197,14 @@ public class ckan extends BaseStep implements StepInterface {
 	}
 	
 	public boolean newDataStoreResorce(List<Field> fields) {
-		Client ckanClient = new Client( new Connection(ckanDomain), ckanApiKey);
+		int port;
+		if (ckanDomain.toLowerCase().startsWith("https://")) {
+			port = 443;
+		}
+		else {
+			port= 80;
+		}
+		Client ckanClient = new Client( new Connection(ckanDomain, port), ckanApiKey);
 		
 		try {
 			DataStore ds = new DataStore();
@@ -239,7 +246,14 @@ public class ckan extends BaseStep implements StepInterface {
 	}
 	
 	public boolean uploadDataStore(List<LinkedHashMap<String, Object>> records) {
-		Client ckanClient = new Client( new Connection(ckanDomain), ckanApiKey);
+		int port;
+		if (ckanDomain.toLowerCase().startsWith("https://")) {
+			port = 443;
+		}
+		else {
+			port= 80;
+		}
+		Client ckanClient = new Client( new Connection(ckanDomain, port), ckanApiKey);
 		
 		try {
 			DataStore ds = new DataStore();
