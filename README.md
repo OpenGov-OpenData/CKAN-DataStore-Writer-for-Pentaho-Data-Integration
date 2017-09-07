@@ -53,3 +53,6 @@ and then start PDI.<BR>
 
 I created an issue asking the authors to publish it to Official PDI Markeplace<BR>
 https://github.com/OpenGov-OpenData/CKAN-DataStore-Writer-for-Pentaho-Data-Integration/issues/1
+  
+This plugin was submitted to PDI Marketplace on Sep, 7, 2017.<BR>
+https://github.com/pentaho/marketplace-metadata/pull/612<BR>
